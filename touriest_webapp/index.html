@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Explore World<span>.</span></a>
+      <nav class="navbar">
+        <ul>
+          <li><a data-scroll="home" href="#home" class="active">Home</a></li>
+          <li>
+            <a data-scroll="feature" href="#feature" class="active">Feature</a>
+          </li>
+          <li><a data-scroll="about" href="#about" class="active">About</a></li>
+          <li>
+            <a data-scroll="gallery" href="#gallery" class="active">Gallary</a>
+          </li>
+          <li>
+            <a data-scroll="review" href="#review" class="active">Review</a>
+          </li>
+          <li>
+            <a
+              data-scroll="client-section"
+              href="#client-section"
+              class="active"
+              >Clients</a
+            >
+          </li>
+          <li>
+            <a data-scroll="contact" href="#contact" class="active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="fas fa-bars"></div>
+    <section class="home" id="home">
+      <div class="video">
+        <video src="images and videos/nature.mp4" loop muted autoplay></video>
+      </div>
+      <div class="content1">
+        <h1>
+          Explore New Places, <br />
+          Adventure Awaits.
+        </h1>
+        <p>
+          "Travel isn't always preety. It isn't always comfortable. Sometimes
+          It's hurts. it even brake your heart. But that's ok. The journey
+          changes you:it should chnge you. it leaves marks on your meomery, on
+          your consciousness, on your heart, and on your body. You take sometime
+          with you. Hopefully, you leave something behind"
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <h3>Search Your Destination</h3>
+          <span>Location</span>
+          <input type="text" placeholder="place you want to visit" />
+          <span>Guest Members</span>
+          <input type="number" placeholder="Number of People" />
+          <span>Arrival</span>
+          <input type="date" />
+          <span>Leaving</span>
+          <input type="date" /><br /><br />
+          <input id="srch" type="submit" value="search" />
+        </form>
+      </div>
+    </section>
+
+    <section class="feature" id="feature">
+      <h1 class="heading"><span>F</span>eature<span> L</span>ocation</h1>
+
+      <div class="card-container">
+        <div class="card">
+          <span class="discount">-35%</span>
+          <img src="images and videos/paris.jpg" alt="image parise" />
+          <div class="content2">
+            <h3 class="title">Norway</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae voluptas laudantium et delectus, molestias odio cumque
+              assumenda eos aut nisi, consectetur praesentium eius beatae
+              voluptates nostrum facilis voluptatem. Dolorem, libero!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">Check out!</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images and videos/italy.jpg" alt="image italy" />
+          <div class="content2">
+            <h3 class="title">Italy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae voluptas laudantium et delectus, molestias odio cumque
+              assumenda eos aut nisi, consectetur praesentium eius beatae
+              voluptates nostrum facilis voluptatem. Dolorem, libero!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">Check out!</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <span class="discount">-25%</span>
+          <img src="images and videos/maldiv.jpg" alt="image maldiv" />
+          <div class="content2">
+            <h3 class="title">Maldivs</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Repudiandae voluptas laudantium et delectus, molestias odio cumque
+              assumenda eos aut nisi, consectetur praesentium eius beatae
+              voluptates nostrum facilis voluptatem. Dolorem, libero!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">Check out!</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h1 class="heading"><span>A</span>bout <span>U</span>s</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images and videos/about1.jpg" alt="image" />
+        </div>
+        <div class="content3" style="padding-left: 20px">
+          <h3>Why choose us?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            porro omnis ex eos ipsum pariatur quibusdam nulla quasi dignissimos
+            laudantium, ratione possimus nostrum beatae? Veritatis facilis
+            dolores perspiciatis cumque vitae?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+            ducimus.
+          </p>
+          <a href="#"><button class="btn btn1">Read More</button></a>
+          <a href="#"><button class="btn">Get Started</button></a>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <h1 class="heading"><span>G</span>allery</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images and videos/img.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images and videos/img1.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images and videos/img2.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images and videos/img3.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images and videos/img4.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images and videos/img5.jpg" alt="img" />
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="review" class="review">
+      <h1 class="heading"><span>R</span>eview</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images and videos/review1.png" alt="img" />
+          </div>
+          <div class="content5">
+            <h3>John Deo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              natus voluptates corporis sed itaque vel! Iusto perspiciatis
+              magnam repellat velit?
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images and videos/review3.png" alt="img" />
+          </div>
+          <div class="content5">
+            <h3>Sophia Kennedy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              natus voluptates corporis sed itaque vel! Iusto perspiciatis
+              magnam repellat velit?
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images and videos/review2.png" alt="img" />
+          </div>
+          <div class="content5">
+            <h3>Jacson Poulin</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              natus voluptates corporis sed itaque vel! Iusto perspiciatis
+              magnam repellat velit?
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-section" id="client-section">
+      <h1 class="heading"><span>O</span>ur <span>C</span>lients</h1>
+      <div id="clients">
+        <div class="client-items">
+          <img src="images and videos/client1.jpg" alt="our client" />
+        </div>
+        <div class="client-items">
+          <img src="images and videos/client2.jpg" alt="our client" />
+        </div>
+        <div class="client-items">
+          <img src="images and videos/client3.jpg" alt="our client" />
+        </div>
+        <div class="client-items">
+          <img src="images and videos/client4.jpg" alt="our client" />
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h1 class="heading"><span>C</span>ontact <span>U</span>s</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.1810909329624!2d72.97021317438471!3d19.1872912484709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9d0d65fd0f7%3A0xc05e9433a2616e8a!2sQUASTECH%20-%20Software%20Testing%20Course%2C%20Python%20Development%2C%20Java%20Development%20course%2C%20python%20data%20science%2C%20Full%20Stack%20Development%2C!5e0!3m2!1sen!2sin!4v1688299772525!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="row">
+        <div class="contact-info">
+          <div class="boxc">
+            <h3><i class="fas fa-home"></i>Prakash media</h3>
+          </div>
+          <div class="boxc">
+            <h3><i class="fas fa-phone"></i>phone</h3>
+            <p>+91 9594168393</p>
+          </div>
+          <div class="boxc">
+            <h3><i class="fas fa-envelope"></i>E-mail</h3>
+            <p>prakashgaikwad2411@gmail.com</p>
+          </div>
+          <div class="boxc">
+            <h3><i class="fas fa-home"></i>Address</h3>
+            <p>Vikhroli, soliter Business Park, Mumbai:400079.</p>
+          </div>
+        </div>
+        <div style="padding-left: 20px" class="contact-form-container">
+          <form action="">
+            <h3>Your Feedback</h3>
+            <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <input type="submit" value="submit" /><br /><br />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <h1>Early Birds 25% discount</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+        repellendus eveniet iste quo, perferendis magni temporibus dolor ad nisi
+        modi.
+      </p>
+      <form action="">
+        <input type="email" placeholder="Enter your Email" />
+        <input type="submit" value="signup" />
+      </form>
+    </section>
+    <section class="footer">
+      <h1 class="credit">
+        created by <span>Prakash Gaikwad</span> | all rights reserved.
+      </h1>
+    </section>
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </body>
+</html>
